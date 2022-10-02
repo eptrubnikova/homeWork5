@@ -26,6 +26,14 @@ public class Main {
                 System.out.println("Установите приложение для Android по ссылке");}
         else System.out.println("У вас неизвестная операционная система");
 
+        System.out.println("Задача 4.3");
+        int year = 2036;
+        boolean yearLeap = ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0));
+        if (yearLeap){
+            System.out.println(year + " год является високосным");
+        }
+        else System.out.println(year + " год не является високосным");
+
         System.out.println("Задача 4.5");
         int monthNumber = 5;
 
