@@ -34,10 +34,15 @@ public class Main {
         }
         else System.out.println(year + " год не является високосным");
 
+        System.out.println("Задача 4.4");
+        int deliveryDistance = 95;
+        int timeDelivery = deliveryDistance / 20 + 1;
+        System.out.println("Потребуется дней: " + timeDelivery);
+
         System.out.println("Задача 4.5");
         int monthNumber = 5;
 
-        switch (monthNumber ) {
+        switch (monthNumber) {
             case 12:
             case 1:
             case 2:
